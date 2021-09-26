@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+section {
+  width: 100%;
+  background-color: aqua;
+  border: 2px solid forestgreen;
+}
+
+.left {
+  float: left;
+  width: 25%;
+  background-color: bisque;
+  padding: 20px;
+  min-width: 130px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: inside;
+}
+
+.content {
+  background-color: darkgray;
+  width: calc(75%);
+  display: inline-block;
+}
+
+.paragraph {
+  clear: both;
+}
+
+img {
+  float: right;
+  width: 50%;
+}
+
+@media screen and (max-width: 557px) {
+  .content {
+    width: calc(100% - 130px);
+  }
+}
