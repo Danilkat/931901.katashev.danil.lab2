@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 10px;
+}
+div {
+  color: white;
+  width: 150px;
+  height: 100px;
+}
+.static {
+  background: blueviolet;
+  position: static;
+}
+.rel1 {
+  position: relative;
+  background: darkred;
+}
+.rel2 {
+  position: relative;
+  background: peru;
+  top: -40px;
+  left: 40px;
+}
+.rel3 {
+  position: relative;
+  background:indianred;
+  width: 600px;
+  height: 450px;
+}
+
+.absolute {
+  position: absolute;
+  background: indigo;
+  width: 300px;
+  right: 0;
+  bottom: 150px;
+}
+
+.fixed {
+  position: fixed;
+  z-index: -1;
+  background: forestgreen;
+  bottom: 0;
+  right: 0;
+}
