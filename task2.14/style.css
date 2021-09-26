@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+section {
+  width: 100%;
+  background-color: aqua;
+  border: 2px solid forestgreen;
+}
+
+.left {
+  float: left;
+  width: 25%;
+  background-color: bisque;
+  padding: 20px;
+  min-width: 130px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: inside;
+}
+
+.content {
+  background-color: darkgray;
+  width: 75%;
+  display: inline-block;
+}
+
+@media screen and (max-width: 540px) {
+  .content {
+    width: 100%;
+  }
+  .left {
+    width: 100%;
+    margin: 15px 0;
+    padding: 0;
+    height: 20px;
+  }
+  ul {
+    margin-left: 40px;
+  }
+  ul li {
+    display: inline;
+  }
+}
