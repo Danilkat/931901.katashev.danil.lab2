@@ -1,0 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+section {
+  display: block;
+  min-width: 700px;
+  width: 700px;
+  margin: 0 auto;
+  margin-top: 10px;
+  background-color: blue;
+  color: white;
+}
