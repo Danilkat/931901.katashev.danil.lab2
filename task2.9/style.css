@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+section {
+  margin: 0 auto;
+  width: 700px;
+  background-color: blue;
+  color: white;
+}
+
+img {
+  float: right;
+  width: 350px;
+  margin: 0 0 20px 20px;
+}
