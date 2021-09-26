@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  font-family:'Times New Roman', Times, serif;
+  background-color: #eaeaea;
+  padding: 10px 0 30px 10px;
+}
+div {
+  display: inline-block;
+}
+.left {
+  width: 200px;
+  background-color: #c8fc98;
+  clear: none;
+  padding: 0px 10px;
+}
+.right {
+  padding: 5px;
+  float: right;
+  width: calc(100% - 200px);
+}
+.highlight {
+  font-style: italic;
+  color: red;
+}
+footer {
+  height: 40px;
+  background-color: black;
+  text-align: center;
+  line-height: 35px;
+  
+}
+footer > a {
+  color: #FFFF80;
+}
